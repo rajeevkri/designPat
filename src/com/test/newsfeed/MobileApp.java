@@ -9,6 +9,7 @@ public class MobileApp extends Channel {
 
 	@Override
 	public void notifyFeed(String feed) {
+		System.out.println("Mobile APP is getting notified with feed = " + feed);
 	}
 
 }
