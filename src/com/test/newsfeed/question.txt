@@ -1,0 +1,2 @@
+Create a system where someone is going to enter news feed and when news feed is entered All systems should be notified.
+System which get notification can be MobileApp, Web Application or any other thing.
