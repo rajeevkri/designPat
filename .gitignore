@@ -3,3 +3,4 @@
 bin/*
 src/com/test/nav/TestClass.java
 src/com/test/nav/TestClass.java
+src/com/test/prototype/TestClass.java
