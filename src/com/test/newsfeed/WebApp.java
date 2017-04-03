@@ -2,9 +2,16 @@ package com.test.newsfeed;
 
 public class WebApp extends Channel {
 
-	public WebApp(NewsFeeder feeder) {
+	NewsCategory category;
+
+	public WebApp(NewsFeeder feeder, NewsCategory category) {
 		this.feeder = feeder;
-		feeder.attachChannels(this);
+		this.category = category;
+		feeder.attachChannels(this,category);
+	}
+
+	public NewsCategory getCategory() {
+		return category;
 	}
 
 	@Override

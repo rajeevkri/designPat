@@ -8,5 +8,7 @@ package com.test.newsfeed;
 public abstract class Channel {
 	NewsFeeder feeder;
 
-	public abstract void notifyFeed(String feed) ;
+	public abstract void notifyFeed(String feed);
+	
+	public abstract NewsCategory getCategory();
 }
