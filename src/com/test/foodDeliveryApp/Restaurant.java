@@ -5,13 +5,27 @@ public class Restaurant {
 	private String id;
 
 	private boolean isOpen;
-	
+
 	private String name;
-	
+
 	private Contact contact;
-	
+
 	private RestaurantKitchen kitchen = new RestaurantKitchen();
-	
+
+	private Menu menu = new Menu();
+
+	public Menu getMenu() {
+		return menu;
+	}
+
+	public void setMenu(Menu menu) {
+		this.menu = menu;
+	}
+
+	public void setKitchen(RestaurantKitchen kitchen) {
+		this.kitchen = kitchen;
+	}
+
 	public RestaurantKitchen getKitchen() {
 		return kitchen;
 	}
@@ -47,5 +61,5 @@ public class Restaurant {
 	public void setContact(Contact contact) {
 		this.contact = contact;
 	}
-	
+
 }
